@@ -1,0 +1,88 @@
+/* Top container styling. */
+body {
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* 
+To convert px to rem:
+1rem = 16 px
+So, 40px = 40/16 = 2.5rem
+*/
+h1 {
+    /* margin-top: 50px; */
+    /* Alternative to margin-top: 50px; */
+    /* 
+    For the margin property you can specify 
+    the top, right bottom and left 
+    eg.margin: top right bottom left 
+    */
+    margin: 50px auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #F9F5EB;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #F9F5EB;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #EA5455;
+  position: relative;
+  padding-top: 100px;
+  /* font-size:xx-large; */
+}
+
+/* Middle container styling. */
+.middle-container {
+  background-color: #E4DCCF;
+
+}
+
+.btn {
+  color: black;
+}
+
+/* Bottom container styling */
+.bottom-container {
+  background-color: #002B5B;
+  color: #F9F5EB;
+
+}
+
+.credits {
+  color: #F9F5EB;
+}
+
+.footer-link {
+  color: #F9F5EB;
+}
+
+
+
+
+
+
+
+
